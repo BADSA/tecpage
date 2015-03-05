@@ -1,0 +1,43 @@
+/** { border: 1px solid black}*/
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+
+    margin-left: 70px;
+    float: left;
+    width: 60%;
+}
+
+
+aside{
+    background-color: rgb(220,220,220);
+    margin-right: 70px;
+    float: right;
+    width: 25%;
+}
+
+ul {
+    padding: 5px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+ul > li > a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
