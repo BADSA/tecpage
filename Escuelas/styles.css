@@ -1,6 +1,16 @@
 /** { border: 1px solid black}*/
 
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif','Garamond','Georgia', serif;
+}
+
+body{
+    background-color: #150D3E;
+    align-content: center;
+}
 
 html {
     margin: 0;
