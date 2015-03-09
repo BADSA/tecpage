@@ -21,6 +21,7 @@
 
 body{
     background-color: #150D3E;
+    align-content: center;
 }
 
 header{
@@ -91,10 +92,17 @@ nav > ul > li > ul{ /* SUBMENUS */
 
 .lista-sedes{
     width: 120px;
+    background-color: #eee;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;      
 }
 
 .lista-carreras{
-    width: 600px;
+    width: 780px;
+    padding: 20px;
+    background-color: #eee;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
 }
 
 
@@ -199,11 +207,6 @@ nav ul li ul li a{
 /* OCULTA LOS SUBMENUS CUANDO CUANDO LA PAGINA CARGA */
 header > nav > ul > li > ul {
     display: none;
-    max-height: 500px;
-    /*
-    overflow-y: scroll;
-    overflow-x: hidden;
-    */
 }
 
 .carreras-ala,.carreras-car,.carreras-lim,.carreras-carl,.carreras-jos{
@@ -242,7 +245,7 @@ a{
 .list-images {
     height: 460px;
     position:relative;
-    width:80%;
+    width:100%;
     margin:0 auto;
 }
 
@@ -389,3 +392,102 @@ a{
   -o-animation-delay: 0;
   animation-delay: 0;
 }
+
+
+
+
+
+
+
+
+/*NUEVOS ESTILOS*/
+
+
+h5{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;    
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;    
+    border: 1px #ccc solid;
+    height: 50px;    
+}
+
+.carreras-ala td{
+    width: 33%;
+}
+
+.carreras-lim td{
+    width: 33%;
+}
+
+.carreras-scar td{
+    width: 20%;
+}
+
+.carreras-car td{
+    width: 20%;
+}
+
+.carreras-jos td{
+    width: 25%;
+}
+
+table td a{
+    text-transform: none;
+    color:#0C3B70;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    display: block;
+    height: 100%;
+    padding: 20px;
+}
+
+table td:hover{
+    background-color: #3277AE;
+}
+
+table td:hover a{
+    color:white;
+}
+
+
+.content2{
+    width: 100%;
+    background-color:#bbb;
+    height: 500px;
+    padding: 50px 30px 30px 30px;
+}
+
+.eventos{
+    float:left;
+    width: 69%;
+    margin-top: 2%;
+    
+}
+
+.eventos div{
+    display: inline-table;
+    height: 350px;
+    width: 24%;
+    border: 1px solid #333;
+}
+
+.map{
+    width: 29%;
+    float: right;
+}
+
+footer{
+    clear: both;
+    height: 100px;
+    background-color: #333;
+    bottom: 0;
+    
+}
+
