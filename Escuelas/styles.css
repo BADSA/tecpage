@@ -1,4 +1,4 @@
-/** { border: 1px solid black}*/
+/* { border: 1px solid black}*/
 
 
 *{
@@ -10,11 +10,6 @@
 body{
     background-color: #150D3E;
     align-content: center;
-}
-
-html {
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -35,7 +30,7 @@ aside{
     background-color: rgb(220,220,220);
     margin-right: 70px;
     float: right;
-    width: 25%;
+    width: 20%;
 }
 
 ul {
@@ -52,6 +47,22 @@ a:visited {
     color: black;
 }
 
+/*=============================================================================*/
+/*       Estilos para los sections donde se va a mostrar la informacion       */
 
-html{
-    
+.page-wrapper{
+    overflow: auto;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    position: relative;
+}
+
+.content-wrapper{
+    width: 70%;
+    float: left;
+}
+
+.info-escuela{
+    padding-left: 40px;
+}
