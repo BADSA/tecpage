@@ -16,14 +16,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Bree Serif','Garamond','Georgia', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
     background-color: #150D3E;
     align-content: center;
 }
-
 
 
 /*                        Terminan estilos del NAV Bar                 */
@@ -83,7 +82,7 @@ a{
    opacity:1;
  }
  17% {
-   opacity:1;
+   opacity:0;
  }
  25% {
    opacity:0;
@@ -101,7 +100,7 @@ a{
    opacity:1;
  }
  17% {
-   opacity:1;
+   opacity:0;
  }
  25% {
    opacity:0;
@@ -143,7 +142,7 @@ a{
     -webkit-animation-name: slideImg;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 25s;
+    -webkit-animation-duration: 50s;
 }
 
 
@@ -152,17 +151,19 @@ a{
 
 .list-images div{
     opacity: 0;
-    color: #fff;
+    color: #444;
     font-size: 2em;
+    width: 100%;
+    background-color: rgba(255,255,255,.35);
     margin: 0;
-    padding: 0;
-    
+    padding-bottom: 10px;
+    padding-left: 15px;
     bottom: 0;
     position: absolute;
   -webkit-animation-name: slideImg;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 25s;
+  -webkit-animation-duration: 50s;
 }
 
 
@@ -172,28 +173,28 @@ a{
 
 
 .list-images img:nth-of-type(1) , .list-images div:nth-of-type(1){
+  -webkit-animation-delay: 40s;
+  -moz-animation-delay: 40s;
+  -o-animation-delay: 40s;
+  animation-delay: 40s;
+}
+.list-images img:nth-of-type(2) ,.list-images div:nth-of-type(2){
+  -webkit-animation-delay: 30s;
+  -moz-animation-delay: 30s;
+  -o-animation-delay: 30s;
+  animation-delay: 30s;
+}
+.list-images img:nth-of-type(3) , .list-images div:nth-of-type(3){
   -webkit-animation-delay: 20s;
   -moz-animation-delay: 20s;
   -o-animation-delay: 20s;
   animation-delay: 20s;
 }
-.list-images img:nth-of-type(2) ,.list-images div:nth-of-type(2){
-  -webkit-animation-delay: 15s;
-  -moz-animation-delay: 15s;
-  -o-animation-delay: 15s;
-  animation-delay: 15s;
-}
-.list-images img:nth-of-type(3) , .list-images div:nth-of-type(3){
+.list-images img:nth-of-type(4), .list-images div:nth-of-type(4) {
   -webkit-animation-delay: 10s;
   -moz-animation-delay: 10s;
   -o-animation-delay: 10s;
   animation-delay: 10s;
-}
-.list-images img:nth-of-type(4), .list-images div:nth-of-type(4) {
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  -o-animation-delay: 5s;
-  animation-delay: 5s;
 }
 
 .list-images img:nth-of-type(5), .list-images div:nth-of-type(5) {
@@ -267,38 +268,115 @@ table td:hover a{
 }
 
 
+
+
+/*====================================*/
+
+
 .content2{
     width: 100%;
-    background-color:#bbb;
+    background-color:#ddd;
     height: 500px;
-    padding: 50px 30px 30px 30px;
+    padding: 50px 0 50px 0;
 }
 
 .eventos{
     float:left;
-    width: 69%;
+    width: 77%;
     margin-top: 2%;
-    
+    margin-left: 2%;
+    margin-right: 1%
 }
 
 .eventos div{
-    display: inline-table;
+    float: left;
     height: 350px;
     width: 24%;
-    border: 1px solid #333;
+    border: 1px solid #666;
+    margin-right: 6px;
 }
+
+
+.evento img{
+    height: 200px;
+    width: 100%;
+}
+
+.evento h3{
+    color: #150D3E;
+    padding: 0 2% 2% 2%;
+}
+
+.evento p{
+    font-size: .9em;
+    color: #444;
+    padding: 0 2% 2% 2%;
+}
+
+.div-proximo-evento{
+    background-color: #150D3E;
+    color: white;    
+}
+
+
+.div-proximo-evento .container{
+    width: 100%;
+    padding: auto;        
+}
+
+.div-proximo-evento p{
+    color: #668;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgba(255,255,255,0.9);
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.div-proximo-evento img {
+    width: 100px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+/*====================================*/
 
 .map{
-    width: 29%;
-    float: right;
+    width: 20%;
+    float: left;
 }
 
+
+
+
+/*==================================================*/
+/*==================================================*/
 footer{
-    clear: both;
+    text-align: center;
     height: 100px;
-    background-color: #333;
+    background-color: #150D3E;
+    color: #fff;
     bottom: 0;
-    
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer img{
+    width:20px;
+    height: 20px;
+}
+
+.redes-sociales ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 
