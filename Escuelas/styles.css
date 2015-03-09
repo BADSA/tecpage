@@ -26,23 +26,6 @@ nav{
 }
 
 
-aside{
-    background-color: rgb(220,220,220);
-    margin-right: 70px;
-    float: right;
-    width: 20%;
-}
-
-ul {
-    padding: 5px;
-    margin-left: 20px;
-    list-style: none;
-}
-
-ul > li > a {
-    text-decoration: none;
-}
-
 a:visited {
     color: black;
 }
@@ -65,4 +48,105 @@ a:visited {
 
 .info-escuela{
     padding-left: 40px;
+
 }
+
+/* ==================================================================*/
+/*      Estilos del aside bar para el menu                          */
+
+aside{
+    font-family: 'Tinos', serif;
+    color: #150D3E; 
+    padding: 10px;
+    padding-right: 40px;
+    background-color: rgb(220,220,220);
+    float: right;
+    box-shadow: 0 0 5px;
+    margin-right: 2px;
+    overflow: auto;
+
+}
+
+aside > ul > ul > li { 
+    font-size: 1.3em;
+    color: #333;
+    
+}
+
+aside > ul > ul > li > a{
+    text-decoration: none;
+    color: #444;
+    display: block;
+    padding: 5px;
+    
+}
+aside ul{
+    display: block;
+}
+
+aside li{
+    display: block;
+    list-style-type: none;
+
+}
+
+aside > ul > ul> ul> li> a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+    margin-left: 25px;
+}
+
+aside a:hover{
+    text-decoration: none;
+    color: #150D3E;
+    
+}
+
+.links-list li:hover a{
+    background-color: #3277AE;
+    color: #fff;
+}
+
+.grados-escuelas{
+    margin-bottom: 10px;
+}
+
+aside > ul > li{
+    color: #333;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+
+/*==========================================================*/
+.img-escuela img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
