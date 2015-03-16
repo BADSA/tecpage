@@ -1,0 +1,62 @@
+.content-wrapper{
+    display: block;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: justify;
+    
+
+}
+
+
+.info-postgrado h1{
+    font-size: 1.9em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-postgrado h2:nth-child(3){
+    margin: 10px;
+}
+
+.info-postgrado h3{
+    margin: 10px;
+    width: 70%;
+    margin-top: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.anexos-postgrado{
+    width: 25%;
+    position: relative;
+    display: block;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 6px #eee;
+}
+.anexos-postgrado img{
+    width: 100%;
+    
+}
+.anexos-postgrado h2{
+    border-bottom: 1px solid #ddd;
+    
+}
+.anexos-postgrado a{
+    color: #667;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8em;
+}
+
+.anexos-postgrado a:visited{
+    text-decoration: none;
+    display: block;
+    color: darkblue;
+}
+
+.info-postgrado p{
+    padding-left: 10px;
+
+    width: 70%;
+}
