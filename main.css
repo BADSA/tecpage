@@ -81,11 +81,14 @@ nav{
     width: 60%;
 }
 
+nav > ul > li{margin-bottom: 1%;}
+
 
 nav > ul > li > a{ /* MENU PRINCIPAL */
     color: white;
     padding: 0.3em 0.4em 0.3em 0.4em;
     border-right: 1px solid #666;
+    
 }
 
 nav ul li:hover > a{ /* COLOR DE FONDO EN HOVER */
@@ -327,3 +330,35 @@ footer img{
     margin-right: 10px;
 }
 
+
+footer ul li{
+    display: inline-block;
+}
+
+footer .enlaces-externos li:after{
+    content: url('img/icon-header_support_separator.png');
+}
+
+.enlaces-externos li a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5%;
+    position: relative;
+    top:-10px;
+}
+
+
+.enlaces-externos li:hover a{
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    color: #150D3E;
+    padding:5px;
+    font-size: 130%;
+}
+
+
+.contacto , .redes-sociales{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
