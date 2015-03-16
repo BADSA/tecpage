@@ -1,0 +1,54 @@
+/*
+    INSTITUTO TECNOLOGICO DE COSTA RICA
+    INGENIERIA EN COMPUTACION
+    ELECTIVA: DESARROLLO DE APLICACIONES PARA WEB
+    HACER DISENO PARA PAGINA www.tec.ac.cr
+    DANIEL SOLIS MENDEZ
+    MELVIN ELIZONDO PEREZ
+    I SEMESTRE 2015
+*/
+
+
+/*           Estilos y efectos para pagina de ACERCA             */
+/*=====================================================================*/
+
+.container{
+    padding: 0 70px 70px 70px;
+}
+
+.titulo{
+    overflow: auto;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.15em;
+}
+
+.jumbotron img{
+    display: block;
+    margin: auto;
+    width: 950px;
+    height: 300px;
+}
+
+.submenu{
+    display: block;
+    margin:auto;
+    text-align: center;
+}
+
+.submenu .list-item img{
+    width:320px;
+    height: 200px;
+}
+
+.submenu .list-item {display: inline-block;cursor:pointer;}
+
+
+.vision-mision{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+

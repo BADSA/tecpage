@@ -32,8 +32,13 @@ a{
     font-family: 'Open Sans', sans-serif;
 }
 
+.color-secundario{
+    background-color:#eee;
+}
 
-
+.titulo{
+    color:#150D3E;  
+}
 
 
 /*========================================================================*/
