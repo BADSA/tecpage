@@ -1,0 +1,64 @@
+
+*{
+
+}
+
+.content-wrapper {
+    background-color: #ddd;
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+.nombre-sede {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 45px;
+    width: 95%;
+
+}
+
+.nombre-sede h1{
+    //float: left;
+    width: 100%;
+    font-size: 3em;
+
+    border-bottom: 1px solid #ccc;
+}
+.nombre-sede span{
+    clear: both;
+    overflow: auto;
+}
+
+.sede-img{
+    float: right;
+    width: 50%;
+    margin:30px;
+}
+.sede-img img{
+    width: 100%;
+    //height: 400px;
+    box-shadow: 1px 1px 5px #555;
+    max-width: 831px;
+    max-height: 831px;
+
+}
+
+.acerca-sede{
+padding: 25px 10px 10px 45px;
+}
+
+.acerca-sede p{
+    padding-bottom: 10px;
+}
+
+h2{
+    width: 45%;
+    font-size: 1.9em; 
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 5px;
+    
+}

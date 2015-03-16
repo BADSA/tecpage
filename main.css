@@ -100,7 +100,7 @@ nav > ul > li > ul{ /* SUBMENUS */
     position: absolute;
     
     box-shadow: 0 0 5px #888;     
-    display: none; /* OCULTA LOS SUBMENUS CUANDO CUANDO LA PAGINA CARGA */
+    //display: none; /* OCULTA LOS SUBMENUS CUANDO CUANDO LA PAGINA CARGA */
 }
 
 
@@ -122,7 +122,7 @@ nav > ul > li > ul{ /* SUBMENUS */
 }
 
 .lista-carreras{
-    width: 780px;
+    width: 850px;
     padding: 20px;
     background-color: #eee;
     -moz-box-shadow: 0 0 5px #888;
