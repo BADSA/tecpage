@@ -22,33 +22,88 @@
     height: 50px;
     text-align: left;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 1.15em;
 }
 
-.jumbotron img{
+.lista{
+    overflow: auto;
+    width: 100%;
+    text-align: justify;
+}
+
+
+.list-item{
+    display: inline-block;
+    float: left;
+    //border: 1px solid green;
+    margin-right: 15px;
+    margin-top: 20px;
+    display: block;   
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.li1col{width:97%;}
+
+.li2col{width:49%;}
+
+.li3col{width: 32%;}
+
+.li4col{width: 23%;}
+
+
+.imagen img{
+    width:310px;
+    height:230px;
     display: block;
     margin: auto;
-    width: 950px;
-    height: 300px;
 }
 
-.submenu{
-    display: block;
-    margin:auto;
-    text-align: center;
+
+.descripcion h3{
+    font-size: 1.3em;
+    //text-align: center;
+    margin-top: 5px;
+    margin-left:5%;
 }
 
-.submenu .list-item img{
-    width:320px;
-    height: 200px;
+.descripcion p{
+    margin-top: 10px;
+    padding: 0 5% 0 5%;
 }
 
-.submenu .list-item {display: inline-block;cursor:pointer;}
+.col1{
+    padding-left: 30px;
+    width:45%;
+    float:left;
+}
+
+.col2{
+    padding-left: 30px;
+    width: 40%;
+    float: right;
+}
+
+.finprin ul li{
+    margin-top: 10px;
+    margin-left: 60px;
+}
 
 
-.vision-mision{
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 5px;
+
+.imgmision img, .imgvision img{
+    width: 95%;
+}
+
+
+.img-pull-right{
+    float: right;
+    margin: 30px;
+}
+
+.img-pull-left{
+    float: left;
+    margin: 30px;
 }
 
