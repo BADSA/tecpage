@@ -1,0 +1,33 @@
+        <footer>
+            <ul class="enlaces-externos">
+                <li><a href="http://www.nuestrotec.cr">Intranet</a></li>
+                
+                <li><a href="https://fs.itcr.ac.cr/adfs/ls/? wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=wa%3Dwsignin1.0%26rpsnv%3D4%26ct%3D1426548466%26rver%3D6.1.6206.0%26wp%3DMBI_KEY%26wreply%3Dhttps:%252F%252Fwww.outlook.com%252Fowa%252F%26id%3D260563%26whr%3Ditcr.ac.cr%26CBCXT%3Dout">Correo</a></li>
+                
+                <li><a href="http://tecdigital.tec.ac.cr/register/?return_url=%2fdotlrn%2findex">tecDigital</a></li>
+                
+                
+                <li><a href="http://www.tec.ac.cr/sitios/Docencia/computacion/cic/Paginas/default.aspx">Investigaci&oacute;n</a></li>
+                
+                
+                <li><a href="http://biblioteca.tec.ac.cr/">Biblioteca TEC</a></li>
+                
+                
+                <li><a href="http://repositoriotec.tec.ac.cr/">Repositorio TEC</a></li>
+            </ul>
+            
+            <div class="contacto">
+                <p>© Tecnológico de Costa Rica 2015<br></p>
+                <p>Teléfono: 2550-5333<br></p>
+            </div>
+            
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="http://www.facebook.com/TecnologicoCostaRica"><img src="../img/fb-logo.png" alt="Facebook"/></a></li>
+                    <li><a href="https://twitter.com/#!/Teccr"><img src="../img/twitter-logo.png" alt="Twitter"/></a></li>
+                    <li><a href="http://www.youtube.com/user/PrensaTec"><img src="../img/youtube-logo.png" alt="Youtube"/></a></li>
+                    <li><a href="https://plus.google.com/111989048777965850852/posts#111989048777965850852/posts"><img src="../img/gplus-logo.png" alt="Google Plus"/></a></li>
+                </ul>
+            </div>
+            
+        </footer>

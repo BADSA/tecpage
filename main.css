@@ -19,6 +19,7 @@
 body{
     background-color: #150D3E;
     align-content: center;
+    height: 100%;
 }
 
 
@@ -311,17 +312,19 @@ h5{
 
 
 footer{
+    clear: both;
+    width: 100%;
+
     text-align: center;
-    height: 100px;
+    height: 200px;
     background-color: #150D3E;
     color: #fff;
-    bottom: 0;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
 footer img{
-    width:20px;
+    width: 20px;
     height: 20px;
 }
 
