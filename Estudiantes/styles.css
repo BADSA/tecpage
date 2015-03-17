@@ -1,0 +1,86 @@
+.container{
+    height: 100%;
+    width: 100%;
+    //position: relative;
+    overflow: auto;
+    //display: block;
+    margin: auto;
+}
+
+.contenido{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px
+}
+
+
+.lista {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+.lista div ul li img{display: block; margin: auto;}
+
+.lista div{
+    margin: auto;
+}
+
+.servicio{
+    width: 217px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+
+.servicio  ul  li {
+  font: 90 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.servicio  ul  li a{
+    padding: 2px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+li:last-child {
+  border: none;
+}
+
+
+.servicio  ul  li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  //width: 200px;
+ 
+  -webkit-transition: font-size 0.2s ease, background-color 0.2s ease;
+  -moz-transition: font-size 0.2s ease, background-color 0.2s ease;
+  -o-transition: font-size 0.2s ease, background-color 0.2s ease;
+  -ms-transition: font-size 0.2s ease, background-color 0.2s ease;
+  transition: font-size 0.2s ease, background-color 0.2s ease;
+}
+ 
+.servicio ul li a:hover {
+  font-size: 115%;
+  background: #f9f9f9;
+}
+
+
+.svonline{
+    color: white;
+    text-align: center;
+    width: 260px;
+    padding: 15px 0 15px 0;
+    border-radius: 20px;
+}
+
+.svonline ul li{
+    margin: 10px 0 13px 0;
+}
+
+
+.otros ul li{
+    margin-bottom: 10px;
+}
