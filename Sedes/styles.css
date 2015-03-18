@@ -22,10 +22,9 @@
 }
 
 .nombre-sede h1{
-    //float: left;
     width: 100%;
-    font-size: 3em;
-
+    font-size: 2em;
+	
     border-bottom: 1px solid #ccc;
 }
 .nombre-sede span{
