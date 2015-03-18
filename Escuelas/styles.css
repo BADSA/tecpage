@@ -7,34 +7,30 @@
     font-family: 'Bree Serif','Garamond','Georgia', serif;
 }
 
+
+
 body{
     background-color: #150D3E;
     align-content: center;
-}
-
-body {
     display: block;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 nav{
 
     margin-left: 70px;
-    float: left;
+    float: left; 
     width: 60%;
-}
-
-
-a:visited {
-    color: black;
 }
 
 /*=============================================================================*/
 /*       Estilos para los sections donde se va a mostrar la informacion       */
 
 .page-wrapper{
-    overflow: auto;
+    float: left;
+    overflow: hidden;
     width: 100%;
     display: block;
     background-color: #fff;
@@ -44,6 +40,17 @@ a:visited {
 .content-wrapper{
     width: 70%;
     float: left;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.content-wrapper h2{
+    color: #333;
+    font-size: 1.9em;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
 }
 
 .info-escuela{
@@ -51,11 +58,21 @@ a:visited {
 
 }
 
+.page-wrapper h1{
+    
+    color: #333;
+    margin-left: 20px;
+    font-size: 2em;
+    padding: 20px;
+    
+}
+
 /* ==================================================================*/
 /*      Estilos del aside bar para el menu                          */
 
 aside{
-    font-family: 'Tinos', serif;
+    width: 23%;
+    font-family: 'Bree Serif','Garamond','Georgia', serif;
     color: #150D3E; 
     padding: 10px;
     padding-right: 40px;
@@ -63,13 +80,15 @@ aside{
     float: right;
     box-shadow: 0 0 5px;
     margin-right: 2px;
-    overflow: auto;
+    position: relative;
+    overflow: hidden:
 
 }
 
 aside > ul > ul > li { 
     font-size: 1.3em;
     color: #333;
+    font-family: 'Bree Serif','Garamond','Georgia', serif;
     
 }
 
@@ -78,6 +97,7 @@ aside > ul > ul > li > a{
     color: #444;
     display: block;
     padding: 5px;
+    font-family: 'Bree Serif','Garamond','Georgia', serif;
     
 }
 aside ul{
@@ -126,6 +146,8 @@ aside > ul > li{
 /*==========================================================*/
 .img-escuela img{
     width: 100%;
+
+    padding-left: 20px;
 }
 
 
